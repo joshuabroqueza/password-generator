@@ -7,10 +7,10 @@ export default {
         jetbrains: ["JetBrains Mono", "monospace"],
       },
       colors: {
-        "regal-blue": "#243c5a",
         "semi-black": "#24232C",
+        "semi-darker": "#979797",
         "semi-red": "#F64A4A",
-        "semin-gray": "#817D92  ",
+        "semi-gray": "#817D92  ",
         "semi-white": "#E6E5EA",
         "more-black": "#18171F",
         "more-green": "#A4FFAF",
