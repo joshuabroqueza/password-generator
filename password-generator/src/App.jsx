@@ -37,8 +37,8 @@ export default function App() {
           </div>
 
           {/* INCLUDE IN THE PASSWORD CONTAINER */}
-          <div>
-            <div className="p_include_child py-5 my-3">
+          <div className="my-10">
+            <div className="p_include_child py-3 my-1">
               <input
                 type="checkbox"
                 name="uppercase"
@@ -49,7 +49,7 @@ export default function App() {
                 Include Uppercase Letters
               </label>
             </div>
-            <div className="p_include_child py-5 my-3">
+            <div className="p_include_child py-3 my-1">
               <input
                 type="checkbox"
                 name="lowercase"
@@ -58,6 +58,28 @@ export default function App() {
               />
               <label htmlFor="lowercase" className="text-semi-white">
                 Include Lowercase Letters
+              </label>
+            </div>
+            <div className="p_include_child py-3 my-1">
+              <input
+                type="checkbox"
+                name="include_numbers"
+                id="include_numbers"
+                className="mr-10 active:bg-more-green"
+              />
+              <label htmlFor="include_numbers" className="text-semi-white">
+                Include Numbers
+              </label>
+            </div>
+            <div className="p_include_child py-3 my-1">
+              <input
+                type="checkbox"
+                name="include_symbols"
+                id="include_symbols"
+                className="mr-10 active:bg-more-green"
+              />
+              <label htmlFor="include_symbols" className="text-semi-white">
+                Include Symbols
               </label>
             </div>
           </div>
